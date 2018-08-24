@@ -10,6 +10,10 @@
 
 }
 
+html, body {
+  font-size: 16pt;
+}
+
 pre {
   background-color:none;
   padding:0px;
@@ -17,11 +21,18 @@ pre {
 
 
 h1,h2,h3,h4,h5 {
-  font-family: "ApexBook"
+  font-family: "PT Serif, ApexBook"
 }
+
+h1.title {
+  margin-bottom: 2rem;
+  font-size: 36pt;
+}
+
 a { 
 color:#4078c0;
 }
+
 p,
 label,
 span,
@@ -33,6 +44,19 @@ h5 a {
    transition: all 0.5s ease;
     color:#333;
 }
+
+p, li {
+  margin-bottom: 1.5rem;
+}
+
+p.subtitle {
+  font-size: 10pt;
+}
+
+.aside h4, h2.title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 a:hover {
   color:#4078c0;
   text-decoration: none;
@@ -56,6 +80,15 @@ a:hover {
 .no-padding-right {
   padding-left:0px;
 }
+
+header h2.title a {
+  font-size: 1.3rem;
+}
+
+ul.menu li {
+  margin-bottom: inherit;
+}
+
 ul.menu li a i {
   padding:5px 5px 2px 0px;
 }
@@ -104,7 +137,6 @@ ul.menu li:hover {
   font-size:18px;
 }
 .summary .description p{
-  font-size:15px;
   color:#767676;
   font-weight:300;
 }
@@ -115,6 +147,7 @@ i.read-more{
 }
 a.read-more{
   padding:5px;
+  font-size: 14px;
 }
 .container {
   margin-top:40px;
@@ -125,6 +158,11 @@ a.read-more{
   margin-bottom:15px;
   font-style: italic;
 }
+
+footer {
+  font-size: 14px;
+}
+
 .footer-icon {
   color:#8CC665; 
   font-size:10px; 
